@@ -1,0 +1,35 @@
+{
+  "source": "User-supplied modify_ml.zip",
+  "original_data": {
+    "pairs": 3360000,
+    "true_labeled_pairs": 2400000,
+    "france_pseudo_labeled_pairs": 960000,
+    "duplicate_exact_pairs": 4756,
+    "conflicting_exact_pairs": 0,
+    "original_dev_rows": 20000,
+    "original_dev_pseudo_rows": 5825,
+    "original_dev_rows_reusing_training_a_text": 19002
+  },
+  "revised_data": {
+    "fit": 3000989,
+    "fit_true": 2043017,
+    "fit_pseudo": 957972,
+    "dev_true_only": 47890,
+    "audit_true_only": 47886,
+    "training_a_and_b_exact_text_overlap_with_holdout": 0
+  },
+  "tests": {
+    "real_data_split_contracts": "PASS on all provided pairs",
+    "tiny_local_xlm_roberta_cpu_training": "PASS",
+    "interrupted_then_resumed_weights_equal_uninterrupted": "PASS, exact tensor equality",
+    "scoring": "PASS, 4000 input/output pairs, probabilities within [0,1]",
+    "test_environment": "macOS, Python 3.12, torch 2.6.0, transformers 4.51.3; no pretrained backbone download"
+  },
+  "limitations": [
+    "No full-size GPU training or leaderboard evaluation performed",
+    "Synthetic test scores do not measure matching quality",
+    "No entity IDs: exact text separation is not guaranteed entity separation",
+    "Pseudo-label teacher confidence and correctness cannot be verified from this file",
+    "Candidate generation, entity-level calibration and submission assembly are not supplied in the source ZIP"
+  ]
+}

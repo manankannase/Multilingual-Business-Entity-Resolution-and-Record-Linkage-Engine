@@ -1,0 +1,64 @@
+{
+  "status": "Exploratory reused-validation experiment; no production changes.",
+  "baseline_full_validation": 0.9902145364364597,
+  "calibration_entities": 35178,
+  "evaluation_entities": 52814,
+  "orphan_losing_edges": 33407,
+  "true_orphan_losing_edges": 934,
+  "calibrated_candidate_proposals": 1766,
+  "calibration_baseline": 0.9904883160454431,
+  "calibration_scores": {
+    "0.0": 0.9904883160454431,
+    "0.002": 0.9904883160454431,
+    "0.01": 0.9904883160454431
+  },
+  "selected_margin": null,
+  "retained_on_calibration": false,
+  "proposed_variant_evaluation": {
+    "reference": 0.9900321791242924,
+    "variant": 0.9900321791242924,
+    "delta": 0.0,
+    "business_group_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "country": {
+      "India": {
+        "reference": 0.9911304497687564,
+        "variant": 0.9911304497687564,
+        "delta": 0.0
+      },
+      "US": {
+        "reference": 0.9892813609926803,
+        "variant": 0.9892813609926803,
+        "delta": 0.0
+      }
+    }
+  },
+  "selected_policy_evaluation": {
+    "reference": 0.9900321791242924,
+    "variant": 0.9900321791242924,
+    "delta": 0.0,
+    "business_group_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "country": {
+      "India": {
+        "reference": 0.9911304497687564,
+        "variant": 0.9911304497687564,
+        "delta": 0.0
+      },
+      "US": {
+        "reference": 0.9892813609926803,
+        "variant": 0.9892813609926803,
+        "delta": 0.0
+      }
+    }
+  },
+  "limitations": [
+    "Existing model and baseline previously used validation.",
+    "Calibration/evaluation grouped by lowercase raw name and country; not a new untouched geography holdout.",
+    "Expected-F assumes independent candidates within each entity; this is greedy orphan reassignment, not global optimization."
+  ]
+}

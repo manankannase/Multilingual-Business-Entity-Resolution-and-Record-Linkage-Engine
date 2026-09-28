@@ -1,0 +1,135 @@
+{
+  "scope": "Read-only diagnostics; validation labels never produce predictions.",
+  "submission_differences": {
+    "matching_results_01_expected_f": {
+      "entities": 1732544,
+      "changed_entities": 19658,
+      "changed_fraction": 0.011346320786081046,
+      "added_pairs": 17224,
+      "removed_pairs": 2763,
+      "empty_to_nonempty": 145,
+      "nonempty_to_empty": 294,
+      "changed_by_country": [
+        {
+          "country": "India",
+          "len": 4950
+        },
+        {
+          "country": "US",
+          "len": 6000
+        },
+        {
+          "country": "France",
+          "len": 8708
+        }
+      ]
+    },
+    "matching_results_02_threshold": {
+      "entities": 1732544,
+      "changed_entities": 21009,
+      "changed_fraction": 0.012126098961988845,
+      "added_pairs": 16273,
+      "removed_pairs": 5280,
+      "empty_to_nonempty": 1,
+      "nonempty_to_empty": 2042,
+      "changed_by_country": [
+        {
+          "country": "India",
+          "len": 5257
+        },
+        {
+          "country": "France",
+          "len": 9431
+        },
+        {
+          "country": "US",
+          "len": 6321
+        }
+      ]
+    },
+    "matching_results_03_missing_calibration": {
+      "entities": 1732544,
+      "changed_entities": 19199,
+      "changed_fraction": 0.011081392449484688,
+      "added_pairs": 16488,
+      "removed_pairs": 3027,
+      "empty_to_nonempty": 196,
+      "nonempty_to_empty": 218,
+      "changed_by_country": [
+        {
+          "country": "India",
+          "len": 4645
+        },
+        {
+          "country": "France",
+          "len": 8840
+        },
+        {
+          "country": "US",
+          "len": 5714
+        }
+      ]
+    },
+    "matching_results_04_model_ensemble": {
+      "entities": 1732544,
+      "changed_entities": 15527,
+      "changed_fraction": 0.008961965756713826,
+      "added_pairs": 13486,
+      "removed_pairs": 2286,
+      "empty_to_nonempty": 107,
+      "nonempty_to_empty": 230,
+      "changed_by_country": [
+        {
+          "country": "India",
+          "len": 3872
+        },
+        {
+          "country": "US",
+          "len": 4706
+        },
+        {
+          "country": "France",
+          "len": 6949
+        }
+      ]
+    },
+    "matching_results_05_missing_only_update": {
+      "entities": 1732544,
+      "changed_entities": 11225,
+      "changed_fraction": 0.006478911935281297,
+      "added_pairs": 9978,
+      "removed_pairs": 1415,
+      "empty_to_nonempty": 28,
+      "nonempty_to_empty": 164,
+      "changed_by_country": [
+        {
+          "country": "France",
+          "len": 4875
+        },
+        {
+          "country": "India",
+          "len": 2770
+        },
+        {
+          "country": "US",
+          "len": 3580
+        }
+      ]
+    }
+  },
+  "observable_text_ambiguity": {
+    "definition": "Same casefolded name/address/country on both sides, opposite labels; IDs excluded.",
+    "conflicting_text_groups": 0,
+    "pairs_in_conflicting_groups": 0,
+    "true_pairs_in_conflicting_groups": 0,
+    "missed_true_pairs_in_conflicting_groups": 0,
+    "missed_blank_true_pairs_in_conflicting_groups": 0,
+    "limitation": "Applies to a text-only pair classifier; candidate-graph context might distinguish some cases."
+  },
+  "ownership_diagnostics": {
+    "true_pairs_lost_by_highest_score_ownership": 956,
+    "lost_true_pairs_whose_winner_is_also_rejected": 934,
+    "affected_entities": 903,
+    "limitation": "Label-aware opportunity count; assigning to runner-up is not a verified correction."
+  }
+}

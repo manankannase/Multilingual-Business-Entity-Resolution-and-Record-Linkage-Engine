@@ -1,0 +1,22 @@
+{
+  "artifact": "final_xenc_stage2_20260927-122208.tsv",
+  "role": "verified final production submission",
+  "public_leaderboard_macro_f0_5": 0.98076,
+  "displayed_rounded_score": 0.981,
+  "data_rows": 1732544,
+  "header_rows": 1,
+  "unique_source1_entity_ids": 1732544,
+  "empty_match_rows": 97702,
+  "duplicate_source1_entity_ids": 0,
+  "bytes": 97730906,
+  "sha256": "86e708e2cee3c34ca1841423a4a55af3a772a9ed4c310f01ce3d0f46570d98da",
+  "official_validator": "PASS — no blocking issues found; safe to submit",
+  "validator_context": {
+    "required_source1_entities": 1732544,
+    "valid_source2_source3_match_ids": 9969589
+  },
+  "notes": [
+    "Structure and uniqueness were rechecked locally during packaging.",
+    "Candidate-pair validation requires the licensed competition dataset and is not rerun inside this portfolio package."
+  ]
+}

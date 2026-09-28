@@ -1,0 +1,6 @@
+torch==2.6.0
+transformers==4.51.3
+polars==1.44.2
+numpy==2.2.6
+sentencepiece==0.2.0
+protobuf==5.29.5

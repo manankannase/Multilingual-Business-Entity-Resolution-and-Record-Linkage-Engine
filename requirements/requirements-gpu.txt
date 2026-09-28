@@ -1,0 +1,6 @@
+# GPU stages (gpu_dense.py, gpu_xenc.py). torch itself is installed from the CUDA wheel index (slurm/setup_env.sh).
+transformers>=4.44,<6
+tokenizers>=0.19
+huggingface_hub>=0.24
+safetensors>=0.4
+sentencepiece>=0.2

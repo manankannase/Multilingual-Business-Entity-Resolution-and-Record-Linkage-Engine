@@ -1,0 +1,120 @@
+{
+  "scope": "All entities present in original validation candidate file",
+  "candidate_pairs": 4639842,
+  "entities": 87992,
+  "scored_entities": 86290,
+  "ground_truth_pairs": 304104,
+  "retrieved_true_pairs": 303061,
+  "retrieval_misses": 1043,
+  "filtered_true_pairs": 586,
+  "ownership_misses": 956,
+  "decision_misses": 5949,
+  "false_positives": 409,
+  "current": {
+    "f05": 0.9902145364364596,
+    "fp": 409,
+    "fn": 8534,
+    "countries": [
+      {
+        "country": "US",
+        "len": 52192,
+        "f05": 0.9894251533973316
+      },
+      {
+        "country": "India",
+        "len": 35800,
+        "f05": 0.9913653598883639
+      }
+    ]
+  },
+  "retrieval_oracle": {
+    "f05": 0.9991302799828975,
+    "fp": 0,
+    "fn": 1043,
+    "countries": [
+      {
+        "country": "India",
+        "len": 35800,
+        "f05": 0.9992527193301387
+      },
+      {
+        "country": "US",
+        "len": 52192,
+        "f05": 0.9990462952988228
+      }
+    ]
+  },
+  "scored_oracle": {
+    "f05": 0.9985576676854917,
+    "fp": 0,
+    "fn": 1629,
+    "countries": [
+      {
+        "country": "US",
+        "len": 52192,
+        "f05": 0.9984945831744124
+      },
+      {
+        "country": "India",
+        "len": 35800,
+        "f05": 0.9986496371492413
+      }
+    ]
+  },
+  "previous_scope": {
+    "retrieval_misses": 1039,
+    "filter_misses": 581
+  },
+  "error_countries": {
+    "retrieval": [
+      {
+        "country": "India",
+        "len": 379
+      },
+      {
+        "country": "US",
+        "len": 664
+      }
+    ],
+    "filter": [
+      {
+        "country": "US",
+        "len": 345
+      },
+      {
+        "country": "India",
+        "len": 241
+      }
+    ],
+    "ownership": [
+      {
+        "country": "India",
+        "len": 461
+      },
+      {
+        "country": "US",
+        "len": 495
+      }
+    ],
+    "decision": [
+      {
+        "country": "US",
+        "len": 3860
+      },
+      {
+        "country": "India",
+        "len": 2089
+      }
+    ],
+    "fp": [
+      {
+        "country": "US",
+        "len": 265
+      },
+      {
+        "country": "India",
+        "len": 144
+      }
+    ]
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "baseline_public_score": 0.98076,
+  "target_public_score": 0.99266666,
+  "code_sha256": "9d4fbda1f3a706dcee900af63a7681f2c8507cf72c819b8a839a544bf0007706",
+  "baseline_meta_sha256": "bd9d1fdd45dad803cc77de3e98f9693392c37ff50ab3f1db5e4c45e059b3999c",
+  "seeds": 3,
+  "entities": {
+    "stop": 16664,
+    "cal": 26194,
+    "hold": 45134
+  },
+  "versus_control": {
+    "reference": 0.9897070292300022,
+    "variant": 0.9897813428216772,
+    "delta": 7.431359167493461e-05,
+    "group_bootstrap_ci95": [
+      -0.00012583130252789374,
+      0.0001270584888849727
+    ],
+    "country": {
+      "India": {
+        "reference": 0.9910754299752781,
+        "variant": 0.9910295438991042,
+        "delta": -4.588607617397747e-05
+      },
+      "US": {
+        "reference": 0.988807625053589,
+        "variant": 0.9889609418785199,
+        "delta": 0.0001533168249309942
+      }
+    }
+  },
+  "versus_saved_baseline": {
+    "reference": 0.9899571464442591,
+    "variant": 0.9897813428216772,
+    "delta": -0.00017580362258185002,
+    "group_bootstrap_ci95": [
+      -0.00041397177062669235,
+      1.4221549675144631e-05
+    ],
+    "country": {
+      "India": {
+        "reference": 0.9912396950456257,
+        "variant": 0.9910295438991042,
+        "delta": -0.0002101511465216009
+      },
+      "US": {
+        "reference": 0.9891141700190382,
+        "variant": 0.9889609418785199,
+        "delta": -0.00015322814051819646
+      }
+    }
+  },
+  "slices": {
+    "has_blank_candidate": {
+      "entities": 22169,
+      "delta_vs_control": 0.0001162512374594027
+    },
+    "no_blank_candidate": {
+      "entities": 22965,
+      "delta_vs_control": 3.382956513908123e-05
+    }
+  },
+  "blank_candidate_diagnostics": {
+    "control": {
+      "scored_pairs": 47098,
+      "true_pairs": 6229,
+      "selected_true": 3392,
+      "selected_false": 84,
+      "missed_scored_true": 2837
+    },
+    "variant": {
+      "scored_pairs": 47098,
+      "true_pairs": 6229,
+      "selected_true": 3451,
+      "selected_false": 103,
+      "missed_scored_true": 2778
+    }
+  },
+  "any_candidate_passes_comparison": false,
+  "generate_all_requested_candidates": true,
+  "candidates": {
+    "01_expected_f": {
+      "filename": "matching_results_01_expected_f.tsv",
+      "hold_f05": 0.9899906643226319,
+      "versus_control": {
+        "reference": 0.9897070292300022,
+        "variant": 0.9899906643226319,
+        "delta": 0.0002836350926296587,
+        "group_bootstrap_ci95": [
+          -5.9850799739176505e-05,
+          0.0004420003848624883
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9910754299752781,
+            "variant": 0.9912507092023627,
+            "delta": 0.00017527922708464238
+          },
+          "US": {
+            "reference": 0.988807625053589,
+            "variant": 0.9891624788431876,
+            "delta": 0.0003548537895987338
+          }
+        }
+      },
+      "versus_saved_baseline": {
+        "reference": 0.9899571464442591,
+        "variant": 0.9899906643226319,
+        "delta": 3.351787837287405e-05,
+        "group_bootstrap_ci95": [
+          -0.00014293719422871971,
+          0.0002062605311193988
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9912396950456257,
+            "variant": 0.9912507092023627,
+            "delta": 1.1014156737018985e-05
+          },
+          "US": {
+            "reference": 0.9891141700190382,
+            "variant": 0.9891624788431876,
+            "delta": 4.83088241495431e-05
+          }
+        }
+      },
+      "passes_comparison": false,
+      "decision": "exact",
+      "threshold": null
+    },
+    "02_threshold": {
+      "filename": "matching_results_02_threshold.tsv",
+      "hold_f05": 0.9897813428216772,
+      "versus_control": {
+        "reference": 0.9897070292300022,
+        "variant": 0.9897813428216772,
+        "delta": 7.431359167493461e-05,
+        "group_bootstrap_ci95": [
+          -0.00012583130252789374,
+          0.0001270584888849727
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9910754299752781,
+            "variant": 0.9910295438991042,
+            "delta": -4.588607617397747e-05
+          },
+          "US": {
+            "reference": 0.988807625053589,
+            "variant": 0.9889609418785199,
+            "delta": 0.0001533168249309942
+          }
+        }
+      },
+      "versus_saved_baseline": {
+        "reference": 0.9899571464442591,
+        "variant": 0.9897813428216772,
+        "delta": -0.00017580362258185002,
+        "group_bootstrap_ci95": [
+          -0.00041397177062669235,
+          1.4221549675144631e-05
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9912396950456257,
+            "variant": 0.9910295438991042,
+            "delta": -0.0002101511465216009
+          },
+          "US": {
+            "reference": 0.9891141700190382,
+            "variant": 0.9889609418785199,
+            "delta": -0.00015322814051819646
+          }
+        }
+      },
+      "passes_comparison": false,
+      "decision": "threshold",
+      "threshold": 0.74
+    },
+    "03_missing_calibration": {
+      "filename": "matching_results_03_missing_calibration.tsv",
+      "hold_f05": 0.9899302912885133,
+      "versus_control": {
+        "reference": 0.9897070292300022,
+        "variant": 0.9899302912885133,
+        "delta": 0.00022326205851115835,
+        "group_bootstrap_ci95": [
+          -3.962654328112632e-05,
+          0.0004264764040834477
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9910754299752781,
+            "variant": 0.9912657218164271,
+            "delta": 0.00019029184114900596
+          },
+          "US": {
+            "reference": 0.988807625053589,
+            "variant": 0.9890525573364808,
+            "delta": 0.0002449322828918049
+          }
+        }
+      },
+      "versus_saved_baseline": {
+        "reference": 0.9899571464442591,
+        "variant": 0.9899302912885133,
+        "delta": -2.6855155745626315e-05,
+        "group_bootstrap_ci95": [
+          -0.00013380622097773856,
+          0.0002093341080542313
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9912396950456257,
+            "variant": 0.9912657218164271,
+            "delta": 2.602677080138254e-05
+          },
+          "US": {
+            "reference": 0.9891141700190382,
+            "variant": 0.9890525573364808,
+            "delta": -6.16126825573858e-05
+          }
+        }
+      },
+      "passes_comparison": false,
+      "decision": "exact",
+      "threshold": null
+    },
+    "04_model_ensemble": {
+      "filename": "matching_results_04_model_ensemble.tsv",
+      "hold_f05": 0.9899759709051894,
+      "versus_control": {
+        "reference": 0.9897070292300022,
+        "variant": 0.9899759709051894,
+        "delta": 0.00026894167518720657,
+        "group_bootstrap_ci95": [
+          -0.0001528038145616359,
+          0.00041610768058656517
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9910754299752781,
+            "variant": 0.991156100367713,
+            "delta": 8.06703924349279e-05
+          },
+          "US": {
+            "reference": 0.988807625053589,
+            "variant": 0.9892003111644544,
+            "delta": 0.0003926861108656154
+          }
+        }
+      },
+      "versus_saved_baseline": {
+        "reference": 0.9899571464442591,
+        "variant": 0.9899759709051894,
+        "delta": 1.8824460930421924e-05,
+        "group_bootstrap_ci95": [
+          -0.00024183425285069054,
+          0.00013049256418118979
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9912396950456257,
+            "variant": 0.991156100367713,
+            "delta": -8.35946779126955e-05
+          },
+          "US": {
+            "reference": 0.9891141700190382,
+            "variant": 0.9892003111644544,
+            "delta": 8.614114541642472e-05
+          }
+        }
+      },
+      "passes_comparison": false,
+      "decision": "exact",
+      "threshold": null
+    },
+    "05_missing_only_update": {
+      "filename": "matching_results_05_missing_only_update.tsv",
+      "hold_f05": 0.9899956304690688,
+      "versus_control": {
+        "reference": 0.9897070292300022,
+        "variant": 0.9899956304690688,
+        "delta": 0.00028860123906642235,
+        "group_bootstrap_ci95": [
+          1.1984410428682222e-05,
+          0.00047670023204534186
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9910754299752781,
+            "variant": 0.9913123565304277,
+            "delta": 0.00023692655514971907
+          },
+          "US": {
+            "reference": 0.988807625053589,
+            "variant": 0.9891301903391454,
+            "delta": 0.00032256528555643454
+          }
+        }
+      },
+      "versus_saved_baseline": {
+        "reference": 0.9899571464442591,
+        "variant": 0.9899956304690688,
+        "delta": 3.8484024809637735e-05,
+        "group_bootstrap_ci95": [
+          -6.94922551942609e-05,
+          0.00024207361528634475
+        ],
+        "country": {
+          "India": {
+            "reference": 0.9912396950456257,
+            "variant": 0.9913123565304277,
+            "delta": 7.266148480209563e-05
+          },
+          "US": {
+            "reference": 0.9891141700190382,
+            "variant": 0.9891301903391454,
+            "delta": 1.602032010724379e-05
+          }
+        }
+      },
+      "passes_comparison": false,
+      "decision": "exact",
+      "threshold": null
+    }
+  },
+  "candidate_ranking": [
+    "05_missing_only_update",
+    "01_expected_f",
+    "04_model_ensemble",
+    "03_missing_calibration",
+    "02_threshold"
+  ],
+  "recommended": "retain_verified_baseline",
+  "split_counts_by_country": [
+    {
+      "country": "India",
+      "group_by": "normalized_name",
+      "stop": 7160,
+      "cal": 10740,
+      "hold": 17900
+    },
+    {
+      "country": "US",
+      "group_by": "state",
+      "stop": 9504,
+      "cal": 15454,
+      "hold": 27234
+    }
+  ],
+  "validation_status": "Exploratory comparison on reused validation with frozen upstream scores.",
+  "limitations": [
+    "Stage-1 early stopping previously used validation; the saved baseline also used all validation.",
+    "New Stage-2 stopping and calibration exclude evaluation groups; India may use names when state balancing is impossible.",
+    "Five prespecified candidates are evaluated; their ranking is exploratory and reuses the evaluation set.",
+    "Few state groups make confidence intervals approximate. No French labels. No leaderboard guarantee."
+  ]
+}

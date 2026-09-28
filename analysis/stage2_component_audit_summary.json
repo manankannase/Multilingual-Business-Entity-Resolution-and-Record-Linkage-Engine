@@ -1,0 +1,82 @@
+{
+  "baseline_f05": 0.9902145364364596,
+  "entities": 87992,
+  "note": "Label-aware diagnostics, NOT deployable improvements. Independent interventions overlap.",
+  "independent_oracle_interventions": {
+    "retrieval": {
+      "pairs": 1043,
+      "affected_entities": 1015,
+      "oracle_addition_delta": 0.0009347058325753776
+    },
+    "prefilter": {
+      "pairs": 586,
+      "affected_entities": 578,
+      "oracle_addition_delta": 0.0006032760204586207
+    },
+    "ownership": {
+      "pairs": 956,
+      "affected_entities": 923,
+      "oracle_addition_delta": 0.0010148599663557523
+    },
+    "final_rejection": {
+      "pairs": 5949,
+      "affected_entities": 5585,
+      "oracle_addition_delta": 0.005932375876230966
+    },
+    "false_positives": {
+      "pairs": 409,
+      "affected_entities": 398,
+      "oracle_removal_delta": 0.0014337920828192408
+    }
+  },
+  "entity_loss_buckets": [
+    {
+      "bucket": "some_correct_missing_only",
+      "entities": 7715,
+      "fp": 0,
+      "fn": 8319,
+      "macro_score_loss": 0.006542329666748223
+    },
+    {
+      "bucket": "matched_entity_zero_correct",
+      "entities": 155,
+      "fp": 3,
+      "fn": 178,
+      "macro_score_loss": 0.0017615237748886262
+    },
+    {
+      "bucket": "some_correct_with_false_positive",
+      "entities": 357,
+      "fp": 363,
+      "fn": 37,
+      "macro_score_loss": 0.001049752680317765
+    },
+    {
+      "bucket": "unmatched_entity_false_positive",
+      "entities": 38,
+      "fp": 43,
+      "fn": 0,
+      "macro_score_loss": 0.0004318574415855987
+    },
+    {
+      "bucket": "perfect",
+      "entities": 79727,
+      "fp": 0,
+      "fn": 0,
+      "macro_score_loss": 0.0
+    }
+  ],
+  "truth_size": {
+    "max": 11,
+    "entities_gt_20": 0
+  },
+  "raw_score_top20": {
+    "positive_pairs_beyond_cap": 0,
+    "note": "Raw p2 order; calibrated ties can change ordering."
+  },
+  "fp_score_counts": {
+    "0.9": 205,
+    "0.95": 142,
+    "0.99": 47
+  }
+}

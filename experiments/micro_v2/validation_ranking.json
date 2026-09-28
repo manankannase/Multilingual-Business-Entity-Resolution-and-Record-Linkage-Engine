@@ -1,0 +1,43 @@
+{
+  "ranking": [
+    "05_missing_only_update",
+    "01_expected_f",
+    "04_model_ensemble",
+    "03_missing_calibration",
+    "02_threshold"
+  ],
+  "recommended": "retain_verified_baseline",
+  "files": {
+    "01_expected_f": {
+      "filename": "matching_results_01_expected_f.tsv",
+      "sha256": "0617b52013beae0c50d69659348d9a6436e50c7d4e7674b36ac5d4400663402a",
+      "identical_to": null,
+      "passes_comparison": false
+    },
+    "02_threshold": {
+      "filename": "matching_results_02_threshold.tsv",
+      "sha256": "9b868d0937d6ca67e3594a2821b8d663e698508bb6d41ffbf25e9ffeaf98c329",
+      "identical_to": null,
+      "passes_comparison": false
+    },
+    "03_missing_calibration": {
+      "filename": "matching_results_03_missing_calibration.tsv",
+      "sha256": "1e86bce863065b24d568daa7262d99ec7c0264ed0234bab5cdb564c49465a582",
+      "identical_to": null,
+      "passes_comparison": false
+    },
+    "04_model_ensemble": {
+      "filename": "matching_results_04_model_ensemble.tsv",
+      "sha256": "6fbe2a338727d6cc73afe945090e59b1d1c19a572b892ea755d658d41d4acdbb",
+      "identical_to": null,
+      "passes_comparison": false
+    },
+    "05_missing_only_update": {
+      "filename": "matching_results_05_missing_only_update.tsv",
+      "sha256": "cbe0728094e79d282abad20755b561cab397b6d3b3952b7a3b227bc1abd1903f",
+      "identical_to": null,
+      "passes_comparison": false
+    }
+  },
+  "status": "Exploratory reused-validation comparison; no leaderboard guarantee."
+}

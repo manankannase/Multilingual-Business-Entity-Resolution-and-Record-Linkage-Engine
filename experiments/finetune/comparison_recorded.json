@@ -1,0 +1,33 @@
+{
+  "code_sha256": "320093e6e1fbf59d3d01da77ad61b17c439ab1abac532b44b839bf7abee5c93a",
+  "eligible_for_test_prediction": false,
+  "calibration_entities": 35116,
+  "evaluation_entities": 52876,
+  "repair_pairs": 98744,
+  "versus_control": {
+    "reference": 0.9901109492705551,
+    "variant": 0.990167144623941,
+    "delta": 0.00005619535338581757,
+    "business_group_bootstrap_ci95": [-0.00003183703763255392, 0.00015878952845283523],
+    "country": {
+      "India": {"reference": 0.991341769411511, "variant": 0.991559474806678, "delta": 0.000217705395167183},
+      "US": {"reference": 0.9892658253677094, "variant": 0.9892111223109075, "delta": -0.00005470305680192317}
+    }
+  },
+  "versus_saved_baseline": {
+    "reference": 0.9901093977505064,
+    "variant": 0.990167144623941,
+    "delta": 0.000057746873434540384,
+    "business_group_bootstrap_ci95": [-0.00007624208663381361, 0.00019870628068496045],
+    "country": {
+      "India": {"reference": 0.9913770204783626, "variant": 0.991559474806678, "delta": 0.00018245432831546127},
+      "US": {"reference": 0.9892390039119152, "variant": 0.9892111223109075, "delta": -0.00002788160100777868}
+    }
+  },
+  "limitations": [
+    "Reused validation: exploratory evidence, not a new independent holdout.",
+    "Original checkpoint/upstream fitting previously inspected validation; extra fine-tuning uses no validation labels.",
+    "No French ground truth. No leaderboard guarantee."
+  ],
+  "source": "Recorded server comparison output preserved from the experiment log."
+}
